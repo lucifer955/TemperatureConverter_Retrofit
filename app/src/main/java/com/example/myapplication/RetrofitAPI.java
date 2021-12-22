@@ -6,7 +6,7 @@ import retrofit2.http.POST;
 
 public interface RetrofitAPI {
     // post request to post a data
-    @POST("/")
+    @POST("/c2f")
 
     //post data
     Call<DataModel> createPost(@Body DataModel dataModal);
