@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
         // create retrofit builder and passing base url
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://temperature-converter-retrofit.herokuapp.com/")
-                // sending data in json format
+                .baseUrl("http://172.17.0.1:3000/")
+                // sending data in json format https://temperature-converter-retrofit.herokuapp.com/
                 // add Gson converter factory
                 .addConverterFactory(GsonConverterFactory.create())
                 // build retrofit builder.
